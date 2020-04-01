@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog3</class>
+ <widget class="QDialog" name="Dialog3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>281</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_Ed">
+    <item>
+     <widget class="QComboBox" name="comboBox_Ed"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_Nombre">
+      <item>
+       <widget class="QLabel" name="label_Ed_Nombre">
+        <property name="text">
+         <string>Nombre:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Ed_Nombre"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_TempMax">
+      <item>
+       <widget class="QLabel" name="label_Ed_TempMax">
+        <property name="text">
+         <string>Temp Máx:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Ed_TempMax"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_TempMin">
+      <item>
+       <widget class="QLabel" name="label_Ed_TempMin">
+        <property name="text">
+         <string>Temp Mín:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Ed_TempMin"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_HumMax">
+      <item>
+       <widget class="QLabel" name="label_Ed_HumMax">
+        <property name="text">
+         <string>Humedad Máx:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Ed_HumMax"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_HumMin">
+      <item>
+       <widget class="QLabel" name="label_Ed_HumMin">
+        <property name="text">
+         <string>Humedad Mín:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Ed_HumMin"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_Luz">
+      <item>
+       <widget class="QLabel" name="label_Ed_Luz">
+        <property name="text">
+         <string>Cant Luz x Día:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Ed_Luz"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_RiegoInic">
+      <item>
+       <widget class="QLabel" name="label_Ed_RiegoInic">
+        <property name="text">
+         <string>Hora de Inicio Riego:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTimeEdit" name="timeEdit_Ed_RiegoInic"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_RiegoDur">
+      <item>
+       <widget class="QLabel" name="label_Ed_RiegoDur">
+        <property name="text">
+         <string>Duración de Riego:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Ed_RiegoDur"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_Ed_Push">
+      <item>
+       <widget class="QDialogButtonBox" name="buttonBox_Ed">
+        <property name="standardButtons">
+         <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
